@@ -109,6 +109,61 @@
   </div>
 </section>
     
+   <section class="appointment-section">
+  <div class="appointment-content">
+    <h2>Schedule an Appointment</h2>
+    <form class="appointment-form">
+      <div class="form-field">
+        <div class="input-icon">
+          <i class="fas fa-user-md"></i>
+          <select id="doctor" name="doctor" class="form-input">
+            <option value="">Choose a doctor</option>
+            <option value="dr-smith">Dr. John Smith - Cardiology</option>
+            <option value="dr-johnson">Dr. Sarah Johnson - Orthopedics</option>
+            <option value="dr-lee">Dr. Michael Lee - Pediatrics</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-field">
+        <div class="input-icon">
+          <i class="fas fa-calendar-alt"></i>
+          <input type="date" id="date" name="date" class="form-input" placeholder="Select Date" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <div class="input-icon">
+          <i class="fas fa-clock"></i>
+          <input type="time" id="time" name="time" class="form-input" placeholder="Select Time" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <div class="input-icon">
+          <i class="fas fa-user"></i>
+          <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <div class="input-icon">
+          <i class="fas fa-envelope"></i>
+          <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <div class="input-icon">
+          <i class="fas fa-phone"></i>
+          <input type="tel" id="phone" name="phone" class="form-input" placeholder="Your Phone Number" required>
+        </div>
+      </div>
+      <button type="submit" class="btn">
+        <i class="fas fa-calendar-check"></i> Book Appointment
+      </button>
+    </form>
+  </div>
+  <div class="appointment-image">
+    <img src="./images/appoinment.png" alt="Appointment">
+  </div>
+</section>
+    
     <script src="./scripts/script.js"></script>
 </body>
 </html>

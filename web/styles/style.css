@@ -267,3 +267,110 @@ header {
   font-size: 1.1rem;
   color: #666;
 }
+
+.appointment-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #f8f8f8;
+}
+
+.appointment-content {
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+}
+
+.appointment-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.appointment-form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  margin-bottom: 1.5rem;
+}
+
+.input-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon i {
+  position: absolute;
+  left: 10px;
+  color: #777;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8rem 0.8rem 0.8rem 40px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #3498db;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn i {
+  margin-right: 10px;
+}
+
+.appointment-image {
+  flex: 1;
+  max-width: 600px;
+  text-align: right;
+}
+
+.appointment-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .appointment-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .appointment-content {
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
+
+  .appointment-image {
+    max-width: 100%;
+    text-align: center;
+  }
+}
