@@ -75,6 +75,40 @@
   </div>
 </section>
     
+  <section class="services-section">
+  <h2>Our Services</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">
+        <i class="fas fa-heartbeat"></i>
+      </div>
+      <h3>Cardiology</h3>
+      <p>Comprehensive care for heart diseases.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <i class="fas fa-procedures"></i>
+      </div>
+      <h3>Surgery</h3>
+      <p>Wide range of surgical services.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <i class="fas fa-briefcase-medical"></i>
+      </div>
+      <h3>Orthopedics</h3>
+      <p>Specialized care for musculoskeletal conditions.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <i class="fas fa-child"></i>
+      </div>
+      <h3>Pediatrics</h3>
+      <p>Dedicated care for children and adolescents.</p>
+    </div>
+  </div>
+</section>
+    
     <script src="./scripts/script.js"></script>
 </body>
 </html>
