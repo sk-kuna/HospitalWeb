@@ -51,6 +51,30 @@
     </div>
 </div>
     
+   <section class="about-cards">
+  <div class="card">
+    <div class="card-icon">
+      <i class="fas fa-user-md"></i>
+    </div>
+    <h3>Expert Doctors</h3>
+    <p>Our hospital is staffed with a team of experienced and board-certified physicians who are leaders in their respective fields.</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">
+      <i class="fas fa-hospital-alt"></i>
+    </div>
+    <h3>State-of-the-Art Facilities</h3>
+    <p>We have invested in the latest medical technology and equipment to provide our patients with the highest level of care.</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">
+      <i class="fas fa-ambulance"></i>
+    </div>
+    <h3>Emergency Services</h3>
+    <p>Our emergency department is equipped to handle a wide range of medical emergencies, ensuring prompt and professional care.</p>
+  </div>
+</section>
+    
     <script src="./scripts/script.js"></script>
 </body>
 </html>
