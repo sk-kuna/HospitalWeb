@@ -12,3 +12,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+ // JavaScript for Modal
+    const loginButton = document.getElementById('loginButton');
+    const loginModal = document.getElementById('loginModal');
+    const closeModal = document.getElementById('closeModal');
+
+    // Open Modal
+    loginButton.addEventListener('click', () => {
+      loginModal.style.display = 'flex';
+    });
+
+    // Close Modal
+    closeModal.addEventListener('click', () => {
+      loginModal.style.display = 'none';
+    });
+
+    // Close Modal when clicking outside
+    window.addEventListener('click', (e) => {
+      if (e.target === loginModal) {
+        loginModal.style.display = 'none';
+      }
+    });
+

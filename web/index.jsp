@@ -43,6 +43,8 @@
         </nav>
     </header>
     
+   
+    
     <div class="hero-section">
     <div class="hero-content">
         <h1>Welcome to LifeCare Hospital</h1>
@@ -247,6 +249,17 @@
   <p>&copy; 2023 LifeCare Hospital. All Rights Reserved. | Developed by <a href="#" target="_blank">Kunalan Subatharan</a></p>
 </div>
 </footer>
+    
+    
+      <!-- Login Popup -->
+  <div class="modal" id="loginModal">
+    <div class="modal-content">
+      <span class="close-modal" id="closeModal">&times;</span>
+      <iframe src="login.jsp" class="login-iframe"></iframe>
+    </div>
+  </div>
+      
+      
     
     <script src="./scripts/script.js"></script>
 </body>
