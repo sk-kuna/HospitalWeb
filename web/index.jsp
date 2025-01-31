@@ -164,6 +164,47 @@
   </div>
 </section>
     
+    <section class="contact-section">
+  <div class="contact-content">
+    <h2>Contact Us</h2>
+    <p>We're here to help! Reach out to us for any inquiries or appointments.</p>
+    <form class="contact-form">
+      <div class="form-field">
+        <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+      </div>
+      <div class="form-field">
+        <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+      </div>
+      <div class="form-field">
+        <input type="tel" id="phone" name="phone" class="form-input" placeholder="Your Phone Number" required>
+      </div>
+      <div class="form-field">
+        <textarea id="message" name="message" class="form-input" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">
+        <i class="fas fa-paper-plane"></i> Send Message
+      </button>
+    </form>
+  </div>
+  <div class="contact-info">
+    <div class="info-card">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Our Location</h3>
+      <p>123 Hospital Lane, Health City, HC 12345</p>
+    </div>
+    <div class="info-card">
+      <i class="fas fa-phone"></i>
+      <h3>Call Us</h3>
+      <p>+1 (123) 456-7890</p>
+    </div>
+    <div class="info-card">
+      <i class="fas fa-envelope"></i>
+      <h3>Email Us</h3>
+      <p>info@hospital.com</p>
+    </div>
+  </div>
+</section>
+    
     <script src="./scripts/script.js"></script>
 </body>
 </html>
