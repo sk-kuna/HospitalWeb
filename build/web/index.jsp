@@ -205,6 +205,49 @@
   </div>
 </section>
     
+    <footer class="footer">
+  <div class="footer-content">
+    <!-- About Section -->
+    <div class="footer-section">
+      <h3><i class="fas fa-hospital"></i> LifeCare Hospital</h3>
+      <p>Your trusted partner in health and wellness. We provide top-notch medical care with compassion and expertise.</p>
+      <div class="social-links">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links Section -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#"><i class="fas fa-info-circle"></i> About Us</a></li>
+        <li><a href="#"><i class="fas fa-medkit"></i> Services</a></li>
+        <li><a href="#"><i class="fas fa-calendar-alt"></i> Appointment</a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i> Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info Section -->
+    <div class="footer-section">
+      <h3>Contact Info</h3>
+      <ul>
+        <li><i class="fas fa-map-marker-alt"></i> 123 Hospital Lane, Health City, HC 12345</li>
+        <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+        <li><i class="fas fa-envelope"></i> info@lifecarehospital.com</li>
+      </ul>
+    </div>
+  </div>
+
+<!-- Copyright Section -->
+<div class="footer-bottom">
+  <p>&copy; 2023 LifeCare Hospital. All Rights Reserved. | Developed by <a href="#" target="_blank">Kunalan Subatharan</a></p>
+</div>
+</footer>
+    
     <script src="./scripts/script.js"></script>
 </body>
 </html>
